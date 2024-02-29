@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "routing-with-services-2023": {
+    "angular-routing-with-services-2023": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:class": {
@@ -38,7 +38,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/routing-with-services-2023",
+            "outputPath": "dist/angular-routing-with-services-2023",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -82,10 +82,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "routing-with-services-2023:build:production"
+              "buildTarget": "angular-routing-with-services-2023:build:production"
             },
             "development": {
-              "buildTarget": "routing-with-services-2023:build:development"
+              "buildTarget": "angular-routing-with-services-2023:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -93,7 +93,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "routing-with-services-2023:build"
+            "buildTarget": "angular-routing-with-services-2023:build"
           }
         },
         "test": {

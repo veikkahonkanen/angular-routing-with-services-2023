@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://unpkg.com/bootstrap@5.3.0/dist/css/bootstrap.min.css');
+.active {
+  font-weight: bold;
+  background-color: bisque;
+}
+.nav a:hover {
+  background-color: cornsilk;
+}
