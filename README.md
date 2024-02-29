@@ -1,4 +1,7 @@
-# RoutingWithServices2023
+# AngularRoutingWithServices2023
+
+**Disclaimer**
+This repository has been created during lessons on "Angular 16: Routing with Services November 2023". The contents of the repository are based on Skillsoft/Percipio learning content originally created by Axle Barr. I have but modified a default Angular project to match the lesson instructions.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
 
